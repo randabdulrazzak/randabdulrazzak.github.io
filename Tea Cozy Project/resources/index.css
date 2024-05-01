@@ -1,0 +1,151 @@
+html {
+    background-color: black;
+    opacity: 0.9;
+    color: seashell;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+
+header {
+    font-size: 22px;
+    background-color: black;
+    opacity: 0.9;
+    height: 69px;
+    padding: 10px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+header img {
+    height: 50px;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar li+li::before {
+    content: " ";
+    padding: 10px;
+}
+
+#navbar a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#navbar a:visited {
+    color: seashell;
+}
+
+#statement {
+    background-color: black;
+    opacity: 0.9;
+}
+
+#mission {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: 79px;
+}
+
+#mns {
+    background-image: url(./images/img-mission-background.jpeg);
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#tea {
+    margin: 0 auto;
+    width: 1000px;
+    position:relative;
+    top: 79px;
+}
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images {
+    margin: 15px;
+}
+
+figcaption {
+    font-weight: bold;
+    margin: 10px;
+}
+
+#locations {
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#blockcontainer {
+    background-image: url(./images/img-locations-background.jpeg);
+    background-size: cover;
+    height: 570px;
+    width: 1200px;
+
+}
+
+#blockcontainer h2 {
+    margin-top: 120px;
+    margin-bottom: 15px;
+    background-color: transparent;
+}
+
+#blocks {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    padding: 5px;
+}
+
+#contact {
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+}
+
+
+footer {
+    position: relative;
+    top: 100px;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px;
+}
+
+
+

@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 97%);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 29px;
+    font-family: 'Abril Fatface';
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 650;
+    font-family: 'Sedan';
+}
+
+p, li {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Archivo';
+}
+
+#colors, #fonts, #textstyles {
+    border: 2px solid #444444;
+    padding: 5px 20px;
+    margin: 20px;
+}
+
+#cream, #blue, #grey, #orange, #pink, #maroon {
+    display: inline-block;
+    height: 100px;
+    width: 385px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+}
+
+#cream {
+    background-color: #F2F2EB;
+    color: black;
+}
+
+#blue {
+    background-color: #D2DCE6;
+    color: blac;
+}
+
+#grey {
+    background-color: #9CABB4;
+    color: white;
+}
+
+#orange {
+    background-color: #AB644B;
+    color: white;
+}
+
+#pink {
+    background-color: #72383D;
+    color: white;
+}
+
+#maroon {
+    background-color: #401b1b;
+    color: white;
+}
+
+#colors p {
+
+    text-align: center;
+    line-height: 0;
+    margin: 30px;
+}
+
+#abril, #sedan, #jersey, #archivo {
+    display: inline-block;
+    margin: 10px 15px;
+}
+
+#sedan {
+    margin-left: 27px;
+}
+
+#archivo {
+    margin-left: 137px;
+}
+
+
+
+#fonts h3 {
+    text-decoration: underline;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+#abril p {
+    font-family: 'Abril Fatface', serif
+}
+
+#sedan p {
+    font-family: 'Sedan', serif;
+
+}
+
+#jersey p {
+    font-family: 'Jersey 10', serif;
+}
+
+#archivo p {
+    font-family: 'Archivo', serif;
+}
+
+strong {
+    font-weight: 900;
+}
+
+.nav li {
+    display: inline-block;
+    height: 40px;
+    width: fit-content;
+    padding: 10px 30px;
+    margin-left: 5px;
+    text-align: center;
+    background-color: #D2DCE6;
+}
+
+a:hover {
+    color: #AB644B;
+    cursor: pointer;
+}
+
+a:active {
+    font-size: smaller;
+}
+
+
+a {
+    text-decoration: none;
+    color:  #401B1B;
+}
