@@ -1,0 +1,145 @@
+html {
+    font-family: Roboto;
+}
+
+header {
+    background-color: #cdcdc8;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    border: 1ps solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+header li {
+    display: inline;
+    padding: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+header a:hover {
+    color: blue;
+}
+
+header #logo {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 20px;
+
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Rubik';
+    letter-spacing: 5px;
+    margin-left: 10px;
+}
+
+header img {
+    height: 69px;
+    width: 85px;
+}
+
+.section1 {
+    position: relative;
+    top: 100px;
+    display: flex;
+    background-color: rgb(86, 151, 86);
+    height: 500px;
+    align-items: center;
+    padding: 70px;
+}
+
+#mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+
+}
+
+.section1 h2 {
+    font-size: 50px;
+    font-family: 'Damion', cursive;
+    font-weight: 100;
+    letter-spacing: 10px;
+    margin: 0;
+}
+
+.section1 h3 {
+    font-size: 80px;
+    font-family: "Roboto";
+    margin: 0;
+}
+
+.section2 {
+    position: relative;
+    top: 100px;
+    display: flex;
+    background-color: rgb(99, 138, 155);
+    height: 500px;
+    align-items: center;
+    padding: 70px;
+    margin: 36px auto;
+}
+
+.section2 h2 {
+    font-size: 50px;
+    font-family: 'Damion', cursive;
+    font-weight: 100;
+    letter-spacing: 10px;
+   
+}
+
+.section2 li {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+
+}
+
+.section3 {
+    position: relative;
+    top: 100px;
+    display: flex;
+    background-color: rgb(155, 99, 120);
+    height: 500px;
+    align-items: center;
+    padding: 70px;
+    margin: 36px auto;
+}
+
+.section3 h2 {
+    font-size: 50px;
+    font-family: 'Damion', cursive;
+    font-weight: 100;
+    letter-spacing: 10px;
+   
+}
+
+.section3 h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+
+
+}
