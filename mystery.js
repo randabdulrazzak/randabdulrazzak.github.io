@@ -30,5 +30,6 @@ const returnRandBase = () => {
     }
   }
   
+  
   //let entry = pAequorFactory(3, ['T', 'A', 'C', 'G']);
   //console.log(entry.mutate());
